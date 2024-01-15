@@ -6,7 +6,7 @@ import (
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
-type User struct {
+type Note struct {
 	ID         primitive.ObjectID `bson:"_id"`
 	Title      *string            `json:"title"`
 	Text       *string            `json:"text"`

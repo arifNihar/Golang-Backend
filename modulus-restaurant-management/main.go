@@ -2,8 +2,8 @@ package main
 
 import (
 	"modulus-restaurant-management/database"
-	"modulus-restaurant-management/middleware"
-	"modulus-restaurant-management/routes"
+	middleware "modulus-restaurant-management/middleware"
+	routes "modulus-restaurant-management/routes"
 	"os"
 
 	"github.com/gin-gonic/gin"
